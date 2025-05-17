@@ -21,6 +21,8 @@ Here is a rough outline of what our pipeline does:
 3. Segments the total brain volume using ANTs [[2]](#2),
 4. Quantifies the WML load as absolute lesion volume in ml and relative lesion volume as WML volume to brain volume ratio.
 
+<img src="data/misc/wml-code.png" width="500">
+
 
 ## How to Use
 
