@@ -7,7 +7,7 @@ This repository contains code for a fully automated image processing pipeline fo
 
 The code in this repository is made for use on the **UK Biobank Research Analysis Platform (UKB RAP)**.
 
-The `docker/` folder contains a Docker image file for use with the Swiss Army Knife application, as well as a subdirectory with the files used to build the docker image (missing the required dependencies). Additionally, the folder contains two `requirements.txt` files, listing all utilized Python (`pip freeze`) and system dependencies (`dpkg -l`) and their versions. The `notebooks/` folder contains some Jupyter Notebooks used for the analysis of the measurements and visualization of the segmentations returned by the Docker execution. 
+The central part of this pipeline, a Docker image file for use with the Swiss Army Knife application, is available at request to magdalena.schuettler@stud-mail.uni-wuerzburg.de or markus.ankenbrand@uni-wuerzburg.de. The `docker/` folder contains two `requirements.txt` files, listing all Python (`pip freeze`) and system dependencies (`dpkg -l`) and their versions utilized for the building of the Docker image. The `notebooks/` folder contains some Jupyter Notebooks used for the analysis of the measurements and visualization of the segmentations returned by the Docker execution. 
 
 Due to data privacy, we cannot share any data available from the UK Biobank database. Instead, we are publishing the results of the image processing pipeline, as well as the statistical tests and plots we have created as part of our analyses.
 
